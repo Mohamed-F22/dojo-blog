@@ -14,7 +14,7 @@ const Create = () => {
 
         setIsPending(true)
 
-        fetch("http://localhost:8000/blogs", {
+        fetch("https://mohamed-f22.github.io/dogo-db/db.json", {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(blog)
