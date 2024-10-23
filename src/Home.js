@@ -2,7 +2,7 @@ import BlogList from "./blogList";
 import useFetch from "./useFetch";
 
 const Home = () => {
-    let {data:blogs, isPending, error} = useFetch("http://localhost:8000/blogs")
+    let {data:blogs, isPending, error} = useFetch("https://mohamed-f22.github.io/dogo-db/db.json")
 
     return (
         <div className="home">
