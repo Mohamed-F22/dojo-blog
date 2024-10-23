@@ -4,7 +4,7 @@ import useFetch from "./useFetch"
 
 const BlogDetails = () => {
     let {id} = useParams()
-    let { data: blog , isPending, error } = useFetch("http://localhost:8000/blogs/" + id)
+    let { data: blog , isPending, error } = useFetch("https://mohamed-f22.github.io/dogo-db/db.json/" + id)
     let history = useHistory()
     
 
